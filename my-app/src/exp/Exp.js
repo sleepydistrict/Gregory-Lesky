@@ -11,7 +11,7 @@ class Exp extends Component {
     return(
       <div className='Exp'>
         <h1>Training:</h1>
-        HTML, CSS, BootStrap, Semantic, Node.js, Command Line, JSON<br/>
+        HTML, CSS, BootStrap, Semantic, Node.js, Command Line, JSON, JavaScript, ES6<br/>
         My experience doing {this.props.superExp} is useful for this job.
       </div>  
     )

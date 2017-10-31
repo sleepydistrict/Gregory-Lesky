@@ -1,6 +1,11 @@
 .App {
+  padding: 20px;  
+  background-color: #948480;  
+  font-family: 'Ubuntu', sans-serif;  
+  background-image: url('http://www.qygjxz.com/free-background-images/3988135.html');
   text-align: center;
 }
+
 
 
 

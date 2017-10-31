@@ -11,7 +11,7 @@ class Hobby extends Component {
     return(
       <div className= "Hobby">
         <h1>Hobbies:</h1>
-        <p>Snow Boarding, White Water, Wood Working, Learnig to Code!!</p>
+        <p>Snow Boarding, White Water, Wood Working, Traveling, Learning to Code!!</p>
       </div>  
     )
   }

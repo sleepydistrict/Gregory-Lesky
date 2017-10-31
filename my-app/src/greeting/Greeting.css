@@ -1,4 +1,6 @@
 .Greeting {
+    background-color: #B8F3B8;
+    font-family: 'Ubuntu', sans-serif;  
     border-style: double;
     padding: 10px;
     margin: 20px;

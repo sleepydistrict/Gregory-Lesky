@@ -5,6 +5,7 @@ import Exp from './exp/Exp';
 import Nav from './nav/Nav';
 import BucketList from './bucketList/BucketList';
 import Greeting from './greeting/Greeting';
+import Pride from './pride/Pride';
 
 class App extends Component {
   constructor(props) { //exct by default
@@ -14,7 +15,8 @@ class App extends Component {
       nav: '',
       hobby: '',
       exp: 'Cooking, Constuction, Coding',
-      bucketList: ''
+      bucketList: '',
+      pride: ''
     }
   }
 
@@ -28,6 +30,7 @@ class App extends Component {
         <Nav superNav= {this.state.nav}/>
         <Exp superExp= {this.state.exp} />
         <Hobby superHobby= {this.state.hobby}/>
+        <Pride superPride= {this.state.hobby} />
         <BucketList superbucketList= {this.state.bucketList} />
       </div>
     );
